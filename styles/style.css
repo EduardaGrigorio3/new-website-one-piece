@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+}
+
+#logo{
+    width: 200px;
+}
+
+#conteiner{
+    background-image: linear-gradient(103.24deg, rgba(0, 8, 29, 0.996) 23.83%, rgba(0, 8, 29, 0.502) 96.1%), url(https://claraweiss.github.io/projeto-one-piece/src/imagens/personagem-monkey-d-luffy.png);
+    background-size: cover;
+    height: 700px;
+    padding: 5px;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+select{
+    padding: 4px 15px 4px 35px; /* Ajuste o padding-left para dar espaço à imagem */
+    font-size: 15px;
+    font-weight: 50px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.43);
+    background-image: url(../assets/images/planet.png);
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin: 10px;
+}
+
+#btn-episode{
+    padding: 4px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color:rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#btn-enter{
+    padding: 4px 15px;
+    font-size: bold;
+    font-weight: 50px;
+    background-color:rgb(230, 8, 8);
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    margin: 10px;
+}
+
+#main{
+    color: white;
+    padding-left: 70px;
+}
+
+#title-main{
+    font-size: 50px;
+    font-weight: 500px;
+}
+
+#synopsis-main{
+    font-size: 15px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+h4{
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 30px;
+    color: rgb(230, 8, 8);
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+}
+
+#input{
+    height: 35px;
+    width: 350px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: white;
+    background-color: rgba(0, 0, 0, 0.43);
+    color: white;
+    font-size: 16px;
+}
+
+#btn-start{
+    font-size: 22px;
+    font-weight: 700px;
+    padding: 2px 15px;
+    margin-left: 10px;
+    background-color: rgb(230, 8, 8);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
